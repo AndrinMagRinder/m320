@@ -42,3 +42,14 @@ C:\Users\janis\OneDrive\Bilder\Documents\GitHub\m320\Auto-Simulator_form\obj\Deb
 C:\Users\janis\OneDrive\Bilder\Documents\GitHub\m320\Auto-Simulator_form\obj\Debug\Auto-Simulator_form.csproj.CoreCompileInputs.cache
 C:\Users\janis\OneDrive\Bilder\Documents\GitHub\m320\Auto-Simulator_form\obj\Debug\Auto-Simulator_form.exe
 C:\Users\janis\OneDrive\Bilder\Documents\GitHub\m320\Auto-Simulator_form\obj\Debug\Auto-Simulator_form.pdb
+C:\Users\Andrin\Source\Repos\m3201\Auto-Simulator_form\obj\Debug\Auto-Simulator_form.csproj.AssemblyReference.cache
+C:\Users\Andrin\Source\Repos\m3201\Auto-Simulator_form\obj\Debug\Auto-Simulator_form.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andrin\Source\Repos\m3201\Auto-Simulator_form\obj\Debug\Auto_Simulator_form.Form1.resources
+C:\Users\Andrin\Source\Repos\m3201\Auto-Simulator_form\obj\Debug\Auto_Simulator_form.Properties.Resources.resources
+C:\Users\Andrin\Source\Repos\m3201\Auto-Simulator_form\obj\Debug\Auto-Simulator_form.csproj.GenerateResource.cache
+C:\Users\Andrin\Source\Repos\m3201\Auto-Simulator_form\obj\Debug\Auto-Simulator_form.csproj.CoreCompileInputs.cache
+C:\Users\Andrin\Source\Repos\m3201\Auto-Simulator_form\obj\Debug\Auto-Simulator_form.exe
+C:\Users\Andrin\Source\Repos\m3201\Auto-Simulator_form\obj\Debug\Auto-Simulator_form.pdb
+C:\Users\Andrin\Source\Repos\m3201\Auto-Simulator_form\bin\Debug\Auto-Simulator_form.exe.config
+C:\Users\Andrin\Source\Repos\m3201\Auto-Simulator_form\bin\Debug\Auto-Simulator_form.exe
+C:\Users\Andrin\Source\Repos\m3201\Auto-Simulator_form\bin\Debug\Auto-Simulator_form.pdb

@@ -26,7 +26,9 @@ namespace Auto_Simulator_form
             form = this;
 
         }
-
+        /*
+      * Hier werden alle Autos, Lastagen und Feuerwehr autos erstellt
+      */
         private void Form1_Load(object sender, EventArgs e)
         {
             cbx_Fahrzeug.Items.Add(new Auto("VW Golf", 200));
@@ -40,7 +42,11 @@ namespace Auto_Simulator_form
 
         }
 
-
+        /*
+        * Hier wird ausgewählt welches Auto oder Lastwagen gewählt wird
+        * Dazu wird auch dafür gesorgt, dass man wenn man einen Lastwagen auswählt
+        * das Gewicht noch entscheiden kann.
+        */
 
         private void cbx_Cars_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -71,7 +77,9 @@ namespace Auto_Simulator_form
             }
 
         }
-
+        /*
+         * lbl_status_Click sorgt dafür, dass das Auto an oder Ausgeschaltet wird
+         */
         private void lbl_status_Click(object sender, EventArgs e)
         {
             if (this.vehicle != null)
@@ -94,19 +102,12 @@ namespace Auto_Simulator_form
             }
         }
 
-        private void btn_Brake_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        /*private void btn_Gas_Hover(object sender, EventArgs e)
-        {
-            if (auto.status == 1)
-            {
-                auto.Accelerate();
-            }
-        }*/
-
+        /*
+          * btn_Gas_MouseHover_1 sorg dafür, dass wenn ich über gas hovere das Auto losfährt
+          * wenn Status auf 1 ist geht das Gear auf 1. Wenn ich dann auf Gas gebe ändert sich das
+          * Label showSpeed.
+          */
         private void btn_Gas_MouseHover_1(object sender, EventArgs e)
         {
             if (this.vehicle != null)
@@ -122,7 +123,10 @@ namespace Auto_Simulator_form
                 lbl_ShowGear.Text = vehicle.gear.ToString();
             }
         }
-
+        /*
+         * btn_Brake_MouseHover macht eigentlich das gleiche wie btn_Gas_MouseHover_1
+         * nur bremst es und gibt nicht gas.
+         */
         private void btn_Brake_MouseHover(object sender, EventArgs e)
         {
             if (this.vehicle != null)
@@ -138,7 +142,9 @@ namespace Auto_Simulator_form
                 lbl_ShowGear.Text = vehicle.gear.ToString();
             }
         }
-
+        /*
+       * Wenn ich auf Honk klicke, dann ertönt eine Hupe
+       */
         private void btn_honk_Click(object sender, EventArgs e)
         {
             if (vehicle != null && vehicle.status == 1)
@@ -146,7 +152,10 @@ namespace Auto_Simulator_form
                 vehicle.Honk();
             }
         }
-
+        /*
+         * cbx_Weight_SelectedIndexChanged sorgt dafür, dass ich das gewicht beim Lastwagen 
+         * ändern kann
+         */
         private void cbx_Weight_SelectedIndexChanged(object sender, EventArgs e)
         {
 

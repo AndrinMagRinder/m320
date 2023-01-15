@@ -106,7 +106,6 @@
             this.btn_Brake.TabIndex = 4;
             this.btn_Brake.Text = "Brake";
             this.btn_Brake.UseVisualStyleBackColor = true;
-            this.btn_Brake.Click += new System.EventHandler(this.btn_Brake_Click);
             this.btn_Brake.MouseHover += new System.EventHandler(this.btn_Brake_MouseHover);
             // 
             // panel1
