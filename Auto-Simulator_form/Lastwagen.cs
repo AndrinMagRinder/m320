@@ -8,6 +8,7 @@ namespace Auto_Simulator_form
 {
     public class Lastwagen : Vehicle
     {
+        private static int weight = 0;
         public Lastwagen(string name, int hp) : base(name, hp)
         {
         }
@@ -18,9 +19,19 @@ namespace Auto_Simulator_form
 
             if (status == 1)
             {
-                if (speed < ((hp / 3) + 100 * (Form1.getInputFromComboBox())/ 100000))
+                if (weight == 0)
                 {
-                    speed += (hp / 200);
+                    if (speed < (hp / 3))
+                    {
+                        speed += (hp / 200);
+                    }
+                }
+                else
+                {
+                    if (speed < (hp / 3) / (weight / 10));
+                    {
+                        speed += (hp / 200 / (weight / 10));
+                    }
                 }
             }
         }
@@ -101,6 +112,16 @@ namespace Auto_Simulator_form
             Console.WriteLine(System.IO.Path.GetFullPath("../../../engine.wav"));
             System.Media.SoundPlayer player = new System.Media.SoundPlayer(System.IO.Path.GetFullPath("../../../engine.wav"));
             player.Play();
+        }
+
+        public static void SetWeight(int weightForm)
+        {
+            weight = weightForm;
+        }
+
+        public int GetWeight()
+        {
+            return weight;
         }
     }
 }

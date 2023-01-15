@@ -14,7 +14,6 @@ namespace Auto_Simulator_form
     public partial class Form1 : Form
     {
         Vehicle vehicle = null;
-        private static int weight = 0;
         private static Form1 form;
 
         public Form1()
@@ -148,24 +147,33 @@ namespace Auto_Simulator_form
             }
         }
 
-        public static int getInputFromComboBox()
-        {
-
-            return weight;
-
-        }
-
         private void cbx_Weight_SelectedIndexChanged(object sender, EventArgs e)
         {
 
 
             System.Windows.Forms.ComboBox cmb = (System.Windows.Forms.ComboBox)sender;
-            if(cmb.SelectedValue == null)
+            if(cbx_Weight.SelectedItem == null)
             {
                 return;
             }
-            int selectedValue = (int)cmb.SelectedValue;
-            weight = selectedValue;
+
+            if(cbx_Weight.SelectedItem  == "25 Tonnen") 
+            {
+                Lastwagen.SetWeight(25);
+            }
+            if (cbx_Weight.SelectedItem == "20 Tonnen")
+            {
+                Lastwagen.SetWeight(20);
+            }
+            if (cbx_Weight.SelectedItem == "15 Tonnen")
+            {
+                Lastwagen.SetWeight(15);
+            }
+            if (cbx_Weight.SelectedItem == "0 Tonnen")
+            {
+                Lastwagen.SetWeight(0);
+            }
+
 
         }
     }

@@ -58,10 +58,10 @@
             // 
             this.cbx_Fahrzeug.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbx_Fahrzeug.FormattingEnabled = true;
-            this.cbx_Fahrzeug.Location = new System.Drawing.Point(435, 48);
-            this.cbx_Fahrzeug.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cbx_Fahrzeug.Location = new System.Drawing.Point(387, 38);
+            this.cbx_Fahrzeug.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbx_Fahrzeug.Name = "cbx_Fahrzeug";
-            this.cbx_Fahrzeug.Size = new System.Drawing.Size(483, 37);
+            this.cbx_Fahrzeug.Size = new System.Drawing.Size(430, 34);
             this.cbx_Fahrzeug.TabIndex = 0;
             this.cbx_Fahrzeug.SelectedIndexChanged += new System.EventHandler(this.cbx_Cars_SelectedIndexChanged);
             // 
@@ -69,10 +69,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(63, 52);
+            this.label1.Location = new System.Drawing.Point(56, 42);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(341, 29);
+            this.label1.Size = new System.Drawing.Size(298, 26);
             this.label1.TabIndex = 1;
             this.label1.Text = "Wählen Sie Ihr Fahrzeug:";
             // 
@@ -80,18 +80,18 @@
             // 
             this.lbl_PS.AutoSize = true;
             this.lbl_PS.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_PS.Location = new System.Drawing.Point(736, 52);
+            this.lbl_PS.Location = new System.Drawing.Point(654, 42);
             this.lbl_PS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_PS.Name = "lbl_PS";
-            this.lbl_PS.Size = new System.Drawing.Size(0, 29);
+            this.lbl_PS.Size = new System.Drawing.Size(0, 26);
             this.lbl_PS.TabIndex = 2;
             // 
             // btn_Gas
             // 
-            this.btn_Gas.Location = new System.Drawing.Point(802, 351);
-            this.btn_Gas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_Gas.Location = new System.Drawing.Point(713, 281);
+            this.btn_Gas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Gas.Name = "btn_Gas";
-            this.btn_Gas.Size = new System.Drawing.Size(116, 235);
+            this.btn_Gas.Size = new System.Drawing.Size(103, 188);
             this.btn_Gas.TabIndex = 3;
             this.btn_Gas.Text = "Gas";
             this.btn_Gas.UseVisualStyleBackColor = true;
@@ -99,10 +99,10 @@
             // 
             // btn_Brake
             // 
-            this.btn_Brake.Location = new System.Drawing.Point(570, 351);
-            this.btn_Brake.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_Brake.Location = new System.Drawing.Point(507, 281);
+            this.btn_Brake.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Brake.Name = "btn_Brake";
-            this.btn_Brake.Size = new System.Drawing.Size(188, 235);
+            this.btn_Brake.Size = new System.Drawing.Size(167, 188);
             this.btn_Brake.TabIndex = 4;
             this.btn_Brake.Text = "Brake";
             this.btn_Brake.UseVisualStyleBackColor = true;
@@ -116,20 +116,20 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.lbl_speed);
             this.panel1.Controls.Add(this.lbl_gear);
-            this.panel1.Location = new System.Drawing.Point(291, 129);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel1.Location = new System.Drawing.Point(259, 103);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(627, 189);
+            this.panel1.Size = new System.Drawing.Size(557, 151);
             this.panel1.TabIndex = 5;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel3.Controls.Add(this.lbl_ShowGear);
-            this.panel3.Location = new System.Drawing.Point(452, 69);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel3.Location = new System.Drawing.Point(402, 55);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(128, 92);
+            this.panel3.Size = new System.Drawing.Size(114, 74);
             this.panel3.TabIndex = 5;
             // 
             // lbl_ShowGear
@@ -138,20 +138,20 @@
             this.lbl_ShowGear.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_ShowGear.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ShowGear.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_ShowGear.Location = new System.Drawing.Point(45, 28);
+            this.lbl_ShowGear.Location = new System.Drawing.Point(40, 22);
             this.lbl_ShowGear.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_ShowGear.Name = "lbl_ShowGear";
-            this.lbl_ShowGear.Size = new System.Drawing.Size(0, 35);
+            this.lbl_ShowGear.Size = new System.Drawing.Size(0, 29);
             this.lbl_ShowGear.TabIndex = 1;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel2.Controls.Add(this.lbl_ShowSpeed);
-            this.panel2.Location = new System.Drawing.Point(38, 69);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel2.Location = new System.Drawing.Point(34, 55);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(338, 92);
+            this.panel2.Size = new System.Drawing.Size(300, 74);
             this.panel2.TabIndex = 4;
             // 
             // lbl_ShowSpeed
@@ -160,19 +160,19 @@
             this.lbl_ShowSpeed.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_ShowSpeed.Font = new System.Drawing.Font("MS Reference Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ShowSpeed.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_ShowSpeed.Location = new System.Drawing.Point(146, 28);
+            this.lbl_ShowSpeed.Location = new System.Drawing.Point(130, 22);
             this.lbl_ShowSpeed.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_ShowSpeed.Name = "lbl_ShowSpeed";
-            this.lbl_ShowSpeed.Size = new System.Drawing.Size(0, 35);
+            this.lbl_ShowSpeed.Size = new System.Drawing.Size(0, 29);
             this.lbl_ShowSpeed.TabIndex = 0;
             // 
             // lbl_speed
             // 
             this.lbl_speed.AutoSize = true;
-            this.lbl_speed.Location = new System.Drawing.Point(50, 37);
+            this.lbl_speed.Location = new System.Drawing.Point(44, 30);
             this.lbl_speed.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_speed.Name = "lbl_speed";
-            this.lbl_speed.Size = new System.Drawing.Size(43, 20);
+            this.lbl_speed.Size = new System.Drawing.Size(36, 16);
             this.lbl_speed.TabIndex = 3;
             this.lbl_speed.Text = "km/h";
             // 
@@ -180,19 +180,19 @@
             // 
             this.lbl_gear.AutoSize = true;
             this.lbl_gear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl_gear.Location = new System.Drawing.Point(460, 37);
+            this.lbl_gear.Location = new System.Drawing.Point(409, 30);
             this.lbl_gear.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_gear.Name = "lbl_gear";
-            this.lbl_gear.Size = new System.Drawing.Size(45, 20);
+            this.lbl_gear.Size = new System.Drawing.Size(37, 16);
             this.lbl_gear.TabIndex = 2;
             this.lbl_gear.Text = "Gear";
             // 
             // lbl_status
             // 
-            this.lbl_status.Location = new System.Drawing.Point(69, 248);
-            this.lbl_status.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.lbl_status.Location = new System.Drawing.Point(61, 198);
+            this.lbl_status.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lbl_status.Name = "lbl_status";
-            this.lbl_status.Size = new System.Drawing.Size(135, 40);
+            this.lbl_status.Size = new System.Drawing.Size(120, 32);
             this.lbl_status.TabIndex = 6;
             this.lbl_status.UseVisualStyleBackColor = true;
             this.lbl_status.Click += new System.EventHandler(this.lbl_status_Click);
@@ -200,10 +200,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Auto_Simulator_form.Properties.Resources.istockphoto_1066947774_612x612;
-            this.pictureBox2.Location = new System.Drawing.Point(69, 325);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(61, 260);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(135, 95);
+            this.pictureBox2.Size = new System.Drawing.Size(120, 76);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
@@ -211,20 +211,20 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Auto_Simulator_form.Properties.Resources.emoji_key_full;
-            this.pictureBox1.Location = new System.Drawing.Point(69, 129);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(61, 103);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(135, 109);
+            this.pictureBox1.Size = new System.Drawing.Size(120, 87);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
             // btn_honk
             // 
-            this.btn_honk.Location = new System.Drawing.Point(74, 434);
-            this.btn_honk.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btn_honk.Location = new System.Drawing.Point(66, 347);
+            this.btn_honk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_honk.Name = "btn_honk";
-            this.btn_honk.Size = new System.Drawing.Size(130, 38);
+            this.btn_honk.Size = new System.Drawing.Size(116, 30);
             this.btn_honk.TabIndex = 9;
             this.btn_honk.Text = "Honk!";
             this.btn_honk.UseVisualStyleBackColor = true;
@@ -233,9 +233,9 @@
             // lbl_weight
             // 
             this.lbl_weight.AutoSize = true;
-            this.lbl_weight.Location = new System.Drawing.Point(236, 409);
+            this.lbl_weight.Location = new System.Drawing.Point(210, 327);
             this.lbl_weight.Name = "lbl_weight";
-            this.lbl_weight.Size = new System.Drawing.Size(152, 20);
+            this.lbl_weight.Size = new System.Drawing.Size(125, 16);
             this.lbl_weight.TabIndex = 11;
             this.lbl_weight.Text = "Gewicht der Ladung";
             // 
@@ -243,21 +243,23 @@
             // 
             this.cbx_Weight.FormattingEnabled = true;
             this.cbx_Weight.Items.AddRange(new object[] {
+            "0 Tonnen",
             "15 Tonnen",
             "20 Tonnen",
             "25 Tonnen"});
-            this.cbx_Weight.Location = new System.Drawing.Point(240, 440);
+            this.cbx_Weight.Location = new System.Drawing.Point(213, 352);
+            this.cbx_Weight.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbx_Weight.Name = "cbx_Weight";
-            this.cbx_Weight.Size = new System.Drawing.Size(281, 28);
+            this.cbx_Weight.Size = new System.Drawing.Size(250, 24);
             this.cbx_Weight.TabIndex = 12;
             this.cbx_Weight.SelectedIndexChanged += new System.EventHandler(this.cbx_Weight_SelectedIndexChanged);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1467, 669);
+            this.ClientSize = new System.Drawing.Size(1304, 535);
             this.Controls.Add(this.cbx_Weight);
             this.Controls.Add(this.lbl_weight);
             this.Controls.Add(this.btn_honk);
@@ -270,7 +272,7 @@
             this.Controls.Add(this.lbl_PS);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbx_Fahrzeug);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
